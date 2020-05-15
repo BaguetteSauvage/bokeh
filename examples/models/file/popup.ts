@@ -16,6 +16,7 @@ export interface Popup extends Popup.Attrs {}
 
 export class Popup extends Model {
   properties: Popup.Props
+  __view_type__: PopupView
 
   constructor(attrs?: Partial<Popup.Attrs>) {
     super(attrs)
